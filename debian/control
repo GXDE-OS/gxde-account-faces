@@ -15,8 +15,8 @@ Vcs-Browser: https://salsa.debian.org/pkg-deepin-team/gxde-account-faces
 
 Package: gxde-account-faces
 Architecture: all
-Break: dde-account-faces
-Replace: dde-account-faces
+Breaks: dde-account-faces
+Replaces: dde-account-faces
 Depends:
  accountsservice,
  ${misc:Depends},
