@@ -1,4 +1,11 @@
-dde-account-faces (1.0.12.1-1) unstable; urgency=medium
+gxde-account-faces (15~1.0.12.1-1) UNRELEASED; urgency=medium
+
+  * Non-maintainer upload.
+  * 
+
+ -- gfdgd_xi <3025613752@qq.com>  Sat, 10 Aug 2024 16:32:46 +0800
+
+gxde-account-faces (1.0.12.1-1) unstable; urgency=medium
 
   * Team upload.
   * New upstream version.
@@ -7,14 +14,14 @@ dde-account-faces (1.0.12.1-1) unstable; urgency=medium
 
  -- Boyuan Yang <byang@debian.org>  Fri, 27 May 2022 21:50:55 -0400
 
-dde-account-faces (1.0.12-1) unstable; urgency=medium
+gxde-account-faces (1.0.12-1) unstable; urgency=medium
 
   * Team upload.
   * Upload to unstable.
 
  -- Boyuan Yang <byang@debian.org>  Sun, 21 Feb 2021 12:21:17 -0500
 
-dde-account-faces (1.0.12-1~exp1) experimental; urgency=medium
+gxde-account-faces (1.0.12-1~exp1) experimental; urgency=medium
 
   * Initial release. (Closes: #978741).
 
