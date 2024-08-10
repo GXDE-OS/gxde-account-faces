@@ -1,0 +1,21 @@
+dde-account-faces (1.0.12.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version.
+  * debian/copyright: Update license following upstream action.
+  * debian/control: Bump Standards-Version to 4.6.1.
+
+ -- Boyuan Yang <byang@debian.org>  Fri, 27 May 2022 21:50:55 -0400
+
+dde-account-faces (1.0.12-1) unstable; urgency=medium
+
+  * Team upload.
+  * Upload to unstable.
+
+ -- Boyuan Yang <byang@debian.org>  Sun, 21 Feb 2021 12:21:17 -0500
+
+dde-account-faces (1.0.12-1~exp1) experimental; urgency=medium
+
+  * Initial release. (Closes: #978741).
+
+ -- Hu Feng <hufeng@uniontech.com>  Thu, 31 Dec 2020 16:29:52 +0800

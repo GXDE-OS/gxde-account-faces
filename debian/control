@@ -1,0 +1,25 @@
+Source: dde-account-faces
+Section: utils
+Priority: optional
+Maintainer: Debian Deepin Packaging Team <pkg-deepin-devel@lists.alioth.debian.org>
+Uploaders:
+ Hu Feng <hufeng@uniontech.com>,
+ Clay Stan <claystan97@gmail.com>,
+Build-Depends:
+ debhelper-compat (= 13),
+Standards-Version: 4.6.1
+Rules-Requires-Root: no
+Homepage: https://github.com/linuxdeepin/dde-account-faces
+Vcs-Git: https://salsa.debian.org/pkg-deepin-team/dde-account-faces.git
+Vcs-Browser: https://salsa.debian.org/pkg-deepin-team/dde-account-faces
+
+Package: dde-account-faces
+Architecture: all
+Depends:
+ accountsservice,
+ ${misc:Depends},
+Conflicts: deepin-system-settings-module-account
+Description: provides account-faces of dde
+ When users are ready to set their own account avatars,
+ Deepin Account avatars provide many beautiful avatars for users to choose from.
+ It is part of Deepin software and DDE (Deepin Desktop Environment).
