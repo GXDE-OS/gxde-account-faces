@@ -1,9 +1,9 @@
-gxde-account-faces (15~1.0.12.1-1) UNRELEASED; urgency=medium
+gxde-account-faces (2:1.0.12.2) UNRELEASED; urgency=medium
 
-  * Non-maintainer upload.
-  * 
+  * 修改版本号
+  * 新增头像
 
- -- gfdgd_xi <3025613752@qq.com>  Sat, 10 Aug 2024 16:32:46 +0800
+ -- gfdgd_xi <3025613752@qq.com>  Thu, 01 May 2025 12:24:13 +0800
 
 gxde-account-faces (1.0.12.1-1) unstable; urgency=medium
 
