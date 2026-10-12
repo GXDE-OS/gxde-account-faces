@@ -1,0 +1,23 @@
+# Maintainer: CharOfString <root@charofstring.cc>
+pkgname=gxde-account-faces-git
+pkgver=1.0.12.2
+pkgrel=1
+pkgdesc='Default account avatars for GXDE'
+arch=('any')
+url="https://github.com/GXDE-OS/gxde-account-faces"
+license=('GPL-3.0-or-later')
+depends=('accountsservice')
+makedepends=('git')
+provides=('gxde-account-faces' 'deepin-account-faces')
+conflicts=('gxde-account-faces' 'deepin-account-faces')
+source=()
+sha512sums=()
+
+# 直接使用 PKGBUILD 所在的 git 仓库作为源码 ・ Build from the git checkout this PKGBUILD lives in.
+_srcroot() {
+  git -C "$startdir" rev-parse --show-toplevel
+}
+
+package() {
+  make -C "$(_srcroot)" DESTDIR="$pkgdir" install
+}
