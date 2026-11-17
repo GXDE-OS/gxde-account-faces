@@ -1,5 +1,5 @@
 # Maintainer: CharOfString <root@charofstring.cc>
-pkgname=gxde-account-faces-git
+pkgname=gxde-account-faces
 pkgver=1.0.12.2
 pkgrel=1
 pkgdesc='Default account avatars for GXDE'
@@ -8,8 +8,9 @@ url="https://github.com/GXDE-OS/gxde-account-faces"
 license=('GPL-3.0-or-later')
 depends=('accountsservice')
 makedepends=('git')
-provides=('gxde-account-faces' 'deepin-account-faces')
-conflicts=('gxde-account-faces' 'deepin-account-faces')
+provides=('deepin-account-faces' "gxde-account-faces-git=$pkgver")
+conflicts=('deepin-account-faces' 'gxde-account-faces-git')
+replaces=('gxde-account-faces-git')
 source=()
 sha512sums=()
 
