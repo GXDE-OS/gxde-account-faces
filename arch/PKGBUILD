@@ -1,6 +1,6 @@
 # Maintainer: CharOfString <root@charofstring.cc>
 pkgname=gxde-account-faces
-pkgver=1.0.12.2
+pkgver=1.0.12.3
 pkgrel=1
 pkgdesc='Default account avatars for GXDE'
 arch=('any')
